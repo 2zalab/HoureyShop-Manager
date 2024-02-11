@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_categories_array">
+        <item>Vêtements</item>
+        <item>Électronique</item>
+        <item>Alimentation</item>
+        <item>Maison et jardin</item>
+        <item>Beauté et santé</item>
+    </string-array>
+</resources>

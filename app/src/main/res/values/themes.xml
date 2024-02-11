@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--style name="Base.Theme.HoureyShopManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <!- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> ->
+    </style-->
+
+    <style name="Theme.HoureyShopManager" parent="Base.Theme.HoureyShopManager" />
+
+    <style name="Base.Theme.HoureyShopManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!--item name="android:navigationBarColor">@android:color/transparent</item-->
+        <item name="colorPrimary">@color/md_blue_A700</item>
+        <item name="colorPrimaryDark">@color/md_white_1000</item>
+        <item name="colorAccent">@color/md_blue_A700</item>
+        <item name="colorSecondaryContainer">@color/md_blue_200</item>
+        <item name="colorError">@color/md_red_A700</item>
+        <!--item name="android:textViewStyle">@style/TextViewFont</item>
+        <item name="android:buttonStyle">@style/TextViewFont</item-->
+
+        <!-- MaterialComponents. -->
+        <item name="colorPrimaryVariant">@color/md_blue_A700</item>
+        <item name="colorSecondaryVariant">@color/md_blue_A700</item>
+        <item name="colorOnPrimary">@color/md_blue_A700</item>
+        <item name="colorOnSecondary">@color/md_blue_A700</item>
+    </style>
+
+    <style name="ItemIndStyle" parent="ShapeAppearance.Material3.NavigationBarView.ActiveIndicator">
+        <item name="color">@color/md_blue_200</item>
+    </style>
+
+    <style name="roundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="SpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--style name="TextViewFont" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily" type="font">@font/cabin</item>
+    </style-->
+
+</resources>
